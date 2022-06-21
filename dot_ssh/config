@@ -1,5 +1,6 @@
+Include conf.d/*
+
 Host github github.com
   HostName github.com
   User git
-  IdentityFile ~/.ssh/github_rsa
-  
+  IdentityFile ~/.ssh/github/id_rsa

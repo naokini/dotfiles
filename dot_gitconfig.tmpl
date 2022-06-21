@@ -1,0 +1,13 @@
+{{ if eq .chezmoi.hostname "MacBook-Air-M1" }}
+[user]
+  name = naokini
+  email = 48155516+naokini@users.noreply.github.com
+[ghq]
+  root = ~/ghq
+{{ else }}
+[user]
+  name = nishiokana
+  email = nnishioka@idcf.jp
+[ghq]
+        root = ~/git
+{{ end }}

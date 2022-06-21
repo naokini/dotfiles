@@ -1,0 +1,18 @@
+# linux command
+alias ls='exa'
+alias lla='ls -la'
+alias llt='ls -lT'
+alias llta='ls -lTa'
+alias cat='bat'
+
+# homebrew
+set PATH /opt/homebrew/bin $PATH
+
+# git
+alias g='cd (ghq root)/(ghq list | peco)'
+
+{{ if ne .chezmoi.hostname "MacBook-Air-M1" }}
+# rancher
+# set --export --prepend PATH "/Users/nnishioka/.rd/bin"
+set PATH ~/.rd/bin $PATH
+{{ end }}
