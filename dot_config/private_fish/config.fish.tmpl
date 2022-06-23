@@ -11,6 +11,9 @@ set PATH /opt/homebrew/bin $PATH
 # git
 alias g='cd (ghq root)/(ghq list | peco)'
 
+# kubernetes
+alias k='kubectl'
+
 {{ if ne .chezmoi.hostname "MacBook-Air-M1" }}
 # rancher
 # set --export --prepend PATH "/Users/nnishioka/.rd/bin"
