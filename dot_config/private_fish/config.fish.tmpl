@@ -6,16 +6,17 @@ alias llta='ls -lTa'
 alias cat='bat'
 
 # homebrew
-set PATH /opt/homebrew/bin $PATH
+set -x PATH /opt/homebrew/bin $PATH
 
 # git
 alias g='cd (ghq root)/(ghq list | peco)'
 
 # kubernetes
 alias k='kubectl'
+k completion fish | source
+set -x PATH $HOME/.krew/bin $PATH
 
 {{ if ne .chezmoi.hostname "MacBook-Air-M1" }}
 # rancher
-# set --export --prepend PATH "/Users/nnishioka/.rd/bin"
-set PATH ~/.rd/bin $PATH
+set -x PATH $HOME/.rd/bin $PATH
 {{ end }}
