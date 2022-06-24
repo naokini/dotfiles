@@ -8,6 +8,9 @@ alias cat='bat'
 # homebrew
 set -x PATH /opt/homebrew/bin $PATH
 
+# starship
+starship init fish | source
+
 # git
 alias g='cd (ghq root)/(ghq list | peco)'
 
