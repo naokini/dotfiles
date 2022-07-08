@@ -14,9 +14,11 @@ starship init fish | source
 # git
 alias g='cd (ghq root)/(ghq list | peco)'
 
-# ruby
+# ruby & rails
 set -x PATH $HOME/.rbenv/shims $PATH
 eval "$(rbenv init -)"
+alias be='bundle exec'
+alias berc='bundle exec rails console'
 
 # kubernetes
 alias k='kubectl'
