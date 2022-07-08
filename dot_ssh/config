@@ -4,3 +4,8 @@ Host github github.com
   HostName github.com
   User git
   IdentityFile ~/.ssh/github/id_rsa
+
+Host gist.github.com
+  HostName gist.github.com
+  User git
+  IdentityFile ~/.ssh/github/id_rsa
