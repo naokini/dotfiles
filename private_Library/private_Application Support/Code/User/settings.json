@@ -1,21 +1,20 @@
 {
   "workbench.colorTheme": "Monokai",
   "workbench.iconTheme": "vscode-great-icons",
-  "files.autoSave": "onFocusChange",
-  "files.associations": {
-      "*.reg": "php"
-  },
-  "editor.wordWrap": "on",
-  "editor.renderWhitespace": "all",
-  "editor.renderControlCharacters": true,
-  "editor.roundedSelection": false,
-  "editor.find.autoFindInSelection": true,
-  "editor.renderLineHighlight": "all",
-  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/",
-  "editor.tabSize": 2,
-  "window.zoomLevel": 0,
   "files.defaultLanguage": "markdown",
-
+  "files.autoSave": "onFocusChange",
+  "files.associations" : {
+    "*.reg" : "php"
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.roundedSelection": false,
+  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>\/",
+  "editor.renderLineHighlight": "all",
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace" : "all",
+  "editor.tabSize" : 2,
+  "editor.wordWrap" : "on",
+  "editor.accessibilitySupport" : "off",
   "ruby.useLanguageServer": true,
   "ruby.useBundler": true,
   "ruby.format": "rubocop",
@@ -23,11 +22,12 @@
     "rubocop": {
       "useBundler": false,
     },
-  },
-
   "[go]": {
-    "editor.tabSize": 4,
-    "editor.insertSpaces": false,
-    "editor.formatOnSave": true,
-  }
+    "editor.insertSpaces" : false,
+    "editor.tabSize" : 4,
+    "editor.formatOnSave" : true
+  },
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
 }
