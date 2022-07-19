@@ -12,11 +12,12 @@ set -x PATH /opt/homebrew/bin $PATH
 starship init fish | source
 
 # git
-alias g='cd (ghq root)/(ghq list | peco)'
+alias g='git'
+alias gp='cd (ghq root)/(ghq list | peco)'
 
 # ruby & rails
 set -x PATH $HOME/.rbenv/shims $PATH
-eval "$(rbenv init -)"
+status --is-interactive; and source (rbenv init -|psub)
 alias be='bundle exec'
 alias berc='bundle exec rails console'
 
