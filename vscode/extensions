@@ -4,7 +4,10 @@ bung87.vscode-gemfile
 emmanuelbeziat.vscode-great-icons
 golang.go
 Hridoy.rails-snippets
+jeff-hykin.better-dockerfile-syntax
+jeff-hykin.better-shellscript-syntax
 kaiwood.endwise
+marp-team.marp-vscode
 mosapride.zenkaku
 ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-ja
@@ -16,5 +19,6 @@ rebornix.ruby
 sianglim.slim
 wayou.vscode-todo-highlight
 wingrunr21.vscode-ruby
+withfig.fig
 xdebug.php-debug
 yzhang.markdown-all-in-one
